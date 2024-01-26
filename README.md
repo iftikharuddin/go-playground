@@ -15,4 +15,5 @@
 - What is missing in Go? Try/catch, but in reality you don't need it. Lexer does a lot of work
     - no semicolons, even docs say use it :P but lexer does all the work
 - Golang installation and hello world
--
+- go mod init is kinda npm init
+- Go is super case sensitive
