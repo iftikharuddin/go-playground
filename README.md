@@ -25,3 +25,23 @@
 - arrays, pointers, structs, slices, mappings, and channels
 - Variable should be known in advance
 - Variables, types and constants
+- := is not allowed outside main, you will have to use var for that
+- Comma ok syntax and packages in golang
+- Conversions in golang
+- Handling time in golang
+    - Time package
+    - presentTime := time.Now()
+    ````
+      fmt.Println(presentTime)
+      fmt.Println(presentTime.Format("01-02-2006")) // for year
+      fmt.Println(presentTime.Format("01-02-2006 Monday")) // for day
+      fmt.Println(presentTime.Format("01-02-2006 15:04:05 Monday")) // time
+      
+                                 // month, day, hour, minute, seconds, nanoseconds, location   
+      createdDate := time.Date(2020, time.May, 10, 23, 23, 0, 0, time.UTC)
+      fmt.Println(createdDate)
+      fmt.Println(createdDate.Format("01-02-2006 Monday"))
+    `````
+- Build for windows, linux and mac
+    - e.g if you wanna build the app for windows ( GOOS="windows" go build)   
+    - you can build standalone program in GO
