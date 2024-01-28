@@ -45,3 +45,13 @@
 - Build for windows, linux and mac
     - e.g if you wanna build the app for windows ( GOOS="windows" go build)   
     - you can build standalone program in GO
+- Memory management in golang
+    - Memory allocation and de-allocation happens automatically 
+    - wot is POINTER !!!
+    - new() and make()
+    - new allocate memory and not init while make allocate and init the memory
+    - new() you will get a memory address and zeroed storage
+    - make() you will get a memory address and non-zeroed storage
+    - GC(Garbage Collection) happen auto
+    - NumCPU() how many CPU in used
+- Pointers in golang
