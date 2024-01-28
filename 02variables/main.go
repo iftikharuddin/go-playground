@@ -1,16 +1,21 @@
 package main
 
-import "fmt"
+import (
+    "bufio"
+     "fmt"
+      "os"
+)
 
 func main() {
-    fmt.Println("Variables")
+    welcome := "Welcome"
+    fmt.Println(welcome)
 
-    // implicit type
-    var website = "testing.com"
-    fmt.Println(website)
+    reader := bufio.NewReader(os.Stdin)
+    fmt.Println("Enter your input:")
 
-    // no var style
-    numberOfUser := 30000.0
-    fmt.Println(numberOfUser)
+    // comma ok || err err
+    input, _ := reader.ReadString('\n')
+    fmt.Println("Thanks for the input:", input)
+    fmt.Printf("Thanks for the input %T:", input)
 
 }
