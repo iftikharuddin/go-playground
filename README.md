@@ -17,3 +17,11 @@
 - Golang installation and hello world
 - go mod init is kinda npm init
 - Go is super case sensitive
+    - go env gopath != go env GOPATH
+- The formal grammer use semicolons ";"
+- Lexer, the job of lexer is to monitor the grammar
+- in Go everything is a type
+    - string, bool, uint64, complex, float32 etc
+- arrays, pointers, structs, slices, mappings, and channels
+- Variable should be known in advance
+- Variables, types and constants
