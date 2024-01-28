@@ -1,6 +1,10 @@
 # go-playground
 
+## For Go Basics
 ( https://youtu.be/JoJ8Sw5Yb4c?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa )
+
+## Golang-ethereum
+( https://www.youtube.com/playlist?list=PLay9kDOVd_x7hbhssw4pTKZHzzc6OG0e_ )
 
 - Go, used by most new startups and `FAANG` are loving it
 - Ideal for cloud infrastructure
@@ -47,7 +51,6 @@
     - you can build standalone program in GO
 - Memory management in golang
     - Memory allocation and de-allocation happens automatically 
-    - wot is POINTER !!!
     - new() and make()
     - new allocate memory and not init while make allocate and init the memory
     - new() you will get a memory address and zeroed storage
@@ -55,3 +58,4 @@
     - GC(Garbage Collection) happen auto
     - NumCPU() how many CPU in used
 - Pointers in golang
+    - a direct reference to memory address
