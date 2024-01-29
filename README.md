@@ -6,6 +6,19 @@
 ## Golang-ethereum
 ( https://www.youtube.com/playlist?list=PLay9kDOVd_x7hbhssw4pTKZHzzc6OG0e_ )
 
+- 01 Interact with Ethereum blockchain using Golang
+- 02 Check the balance of an ether wallet
+- 03 Generate an Ether Wallet Using Golang
+- 04 Generate Ethereum Keystore Wallet using Golang
+- 05 How to get Ethers for testing
+- 06 Transferring Ether between accounts using Golang
+- 07 Project Overview Smart Contract Using Solidity and Golang.
+- 08 Build a To-do smart contract using Solidity.
+- 09 Authorization in Ethereum Smart Contract using Solidity.
+- 10-install sqlc and abigen ethereum.
+
+
+## Basics learning
 - Go, used by most new startups and `FAANG` are loving it
 - Ideal for cloud infrastructure
 - Golang is compiled
